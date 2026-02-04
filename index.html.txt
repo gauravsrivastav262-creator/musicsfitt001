@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MUSICSFITT – Music That Fits Your Mood</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader">
+  <span>MUSICSFITT</span>
+</div>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="overlay"></div>
+  <h1 class="brand">MUSICSFITT</h1>
+  <p class="tagline">Music That Fits Your Mood, Moment & Soul</p>
+  <span class="coming">🚧 Coming Soon</span>
+</section>
+
+<!-- Emotion Journey -->
+<section class="journey">
+  <h2>The Journey We Create</h2>
+  <div class="emotion-grid">
+    <div class="emotion">🔥 Power</div>
+    <div class="emotion">🖤 Darkness</div>
+    <div class="emotion">✨ Hope</div>
+    <div class="emotion">🌌 Depth</div>
+    <div class="emotion">🎧 Focus</div>
+  </div>
+</section>
+
+<!-- Who We Are -->
+<section class="about">
+  <h2>Who We Are</h2>
+  <p>
+    MUSICSFITT is not just a music page.  
+    It is a **sound identity** for creators, editors, night thinkers, anime lovers,
+    spiritual explorers, and people who feel deeply.
+  </p>
+  <p>
+    We curate, create, and shape music that **hits before the scene does** —
+    music that elevates reels, edits, emotions, and silence.
+  </p>
+</section>
+
+<!-- What We Do -->
+<section class="services">
+  <h2>What We Do</h2>
+  <ul>
+    <li>🎼 Cinematic & Emotional Music Drops</li>
+    <li>🎬 Music for Reels, Shorts & Anime Edits</li>
+    <li>🌙 Deep Focus & Night Vibe Soundscapes</li>
+    <li>⚔️ Dark, Epic & Spiritual Audio Experiences</li>
+    <li>🚀 Future AI-powered music tools</li>
+  </ul>
+</section>
+
+<!-- What You Get -->
+<section class="value">
+  <h2>What You Get Here</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Emotion-Driven Sounds</h3>
+      <p>Music crafted to amplify feelings, not distract from them.</p>
+    </div>
+    <div class="card">
+      <h3>Creator-First Library</h3>
+      <p>Sounds built specifically for editors, reels & storytelling.</p>
+    </div>
+    <div class="card">
+      <h3>Consistency & Identity</h3>
+      <p>A sound aesthetic you can rely on, recognize, and reuse.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Coming Soon Business -->
+<section class="future">
+  <h2>What’s Coming</h2>
+  <p>
+    MUSICSFITT is evolving into a **complete music ecosystem** —
+    from curated sound drops to tools that help creators
+    find the perfect sound for every emotion.
+  </p>
+  <p class="promise">
+    This is just the beginning.
+  </p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 MUSICSFITT</p>
+  <p>Music That Fits Your Mood</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

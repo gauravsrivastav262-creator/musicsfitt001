@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+body {
+  background: #050505;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Loader */
+#loader {
+  position: fixed;
+  inset: 0;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  font-size: 2rem;
+  letter-spacing: 4px;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(120deg, #000, #111, #000);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.brand {
+  font-size: 4rem;
+  letter-spacing: 6px;
+  text-shadow: 0 0 20px #6b00ff;
+}
+
+.tagline {
+  margin-top: 1rem;
+  opacity: 0.8;
+}
+
+.coming {
+  margin-top: 2rem;
+  border: 1px solid #6b00ff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+}
+
+section {
+  padding: 5rem 10%;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+}
+
+.journey .emotion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.emotion {
+  padding: 1.5rem;
+  border: 1px solid #222;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.emotion:hover {
+  background: #6b00ff;
+}
+
+.services ul {
+  list-style: none;
+}
+
+.services li {
+  margin-bottom: 0.8rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  padding: 2rem;
+  border: 1px solid #222;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px #6b00ff55;
+}
+
+.future {
+  text-align: center;
+}
+
+.promise {
+  margin-top: 1rem;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  border-top: 1px solid #222;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
